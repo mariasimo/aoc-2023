@@ -21,10 +21,19 @@ export const part1 = (rawInput) => {
 };
 
 export const part2 = (rawInput) => {
-  const input = parseInput(rawInput);
+  const games = parseInput(rawInput);
 
-  return;
+  const findPower = (game) => {
+    const bag = { red: 0, green: 0, blue: 0 };
+    game.forEach((item) => {
+      const [num, color] = item.split(" ");
+      if (bag[color] < +num) {
+        bag[color] = +num;
+      }
+    });
+
+    return bag.blue * bag.red * bag.green;
+  };
+
+  return games.reduce((acc, game) => acc + findPower(game), 0);
 };
-
-// You can use the dev mode adding a console log here
-// console.log(part1(exampleInput))

@@ -9,6 +9,7 @@ Task description: [link](https://adventofcode.com/2023/day/1)
 - Cambios en template
 - Usar tests es de ayuda
 - Cambios en sendPuzzle
+- Pushear de forma frecuente
 
 Overlapping matches: a "positive look ahead" is needed
 https://www.youtube.com/watch?v=V256QdRgChU&t=95s

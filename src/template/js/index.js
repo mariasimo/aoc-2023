@@ -11,6 +11,3 @@ export const part2 = (rawInput) => {
 
   return;
 };
-
-// You can use the dev mode adding a console log here
-// console.log(part1(exampleInput))
