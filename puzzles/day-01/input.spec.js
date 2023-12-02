@@ -13,12 +13,12 @@ describe("Day 1", () => {
     });
   });
   describe("part 2", () => {
-    test.skip("Should return expected result with example input", () => {
+    test("Should return expected result with example input", () => {
       expect(part2(example2)).toBe(281);
     });
   });
   describe("part 2", () => {
-    test("Should return expected result with input", () => {
+    test.skip("Should return expected result with input", () => {
       expect(part2(input)).toBe(undefined);
     });
   });

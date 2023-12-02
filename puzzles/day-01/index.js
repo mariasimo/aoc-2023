@@ -22,7 +22,6 @@ export const part2 = (rawInput) => {
   const input = parseInput(rawInput);
 
   const digits = {
-    zero: 0,
     one: 1,
     two: 2,
     three: 3,
@@ -35,27 +34,34 @@ export const part2 = (rawInput) => {
   };
 
   const getNumbers = (line) => {
-    const pattern = /(\d+|zero|one|two|three|four|five|six|seven|eight|nine)/g;
+    const pattern = /(?=(one|two|three|four|five|six|seven|eight|nine|\d+))/gm;
 
-    const match = line.match(pattern);
+    const match = Array.from(line.matchAll(pattern), (x) => {
+      return x[1];
+    });
+
     const numbers = match.map((g) => {
       if (!Number(g)) {
         return digits[g];
       }
       return Number(g);
     });
-    console.log(line, match, numbers);
     return numbers.join(",");
   };
 
-  const pairs = input.splice(0, 10).map((line) => {
-    const nums = getNumbers(line);
-
+  const getPair = (nums) => {
     if (nums.length === 1) {
       return `${nums[0]}${nums[0]}`;
     }
 
     return `${nums[0]}${nums[nums.length - 1]}`;
+  };
+
+  const pairs = input.map((line) => {
+    const nums = getNumbers(line);
+    const pair = getPair(nums);
+
+    return pair;
   });
 
   return pairs.reduce((acc, cu) => acc + Number(cu), 0);
