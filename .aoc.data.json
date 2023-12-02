@@ -1,8 +1,12 @@
 {
   "year": 2023,
   "leaderboard": {
-    "lastUpdated": 1701512622489,
+    "lastUpdated": 1701518245943,
     "state": [
+      {
+        "stars": 2,
+        "name": "María Simó"
+      },
       {
         "stars": 2,
         "name": "Francisco Naranjo"
@@ -14,10 +18,6 @@
       {
         "stars": 2,
         "name": "Jose Antonio Castro Castro (Toño)"
-      },
-      {
-        "stars": 1,
-        "name": "María Simó"
       },
       {
         "stars": 1,

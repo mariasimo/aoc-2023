@@ -44,10 +44,10 @@ _Click a badge to go to the specific day._
 ## Leaderboard 👀
 | Participant | Stars |
 | ------------- | ------------- |
+| María Simó | 2 ⭐️⭐️ |
 | Francisco Naranjo | 2 ⭐️⭐️ |
 | Nicolás Sanchez | 2 ⭐️⭐️ |
 | Jose Antonio Castro Castro (Toño) | 2 ⭐️⭐️ |
-| María Simó | 1 ⭐️ |
 | Mouly Taha | 1 ⭐️ |
 | AnaMMenacho | - |
 | Mario Ballestero | - |
