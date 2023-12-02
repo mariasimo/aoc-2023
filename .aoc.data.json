@@ -1,8 +1,65 @@
 {
   "year": 2023,
   "leaderboard": {
-    "lastUpdated": 0,
-    "state": []
+    "lastUpdated": 1701512622489,
+    "state": [
+      {
+        "stars": 2,
+        "name": "Francisco Naranjo"
+      },
+      {
+        "stars": 2,
+        "name": "Nicolás Sanchez"
+      },
+      {
+        "stars": 2,
+        "name": "Jose Antonio Castro Castro (Toño)"
+      },
+      {
+        "stars": 1,
+        "name": "María Simó"
+      },
+      {
+        "stars": 1,
+        "name": "Mouly Taha"
+      },
+      {
+        "stars": 0,
+        "name": "AnaMMenacho"
+      },
+      {
+        "stars": 0,
+        "name": "Mario Ballestero"
+      },
+      {
+        "stars": 0,
+        "name": "Antonio Jesús Palma López"
+      },
+      {
+        "stars": 0,
+        "name": "Jimena A."
+      },
+      {
+        "stars": 0,
+        "name": "Emilio A. Sánchez López"
+      },
+      {
+        "stars": 0,
+        "name": "Francisco Javier Portillo Rodriguez"
+      },
+      {
+        "stars": 0,
+        "name": null
+      },
+      {
+        "stars": 0,
+        "name": "Marta García"
+      },
+      {
+        "stars": 0,
+        "name": "Magui Valero"
+      }
+    ]
   },
   "blockedTime": {
     "amount": 0,

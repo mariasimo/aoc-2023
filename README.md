@@ -1,11 +1,11 @@
 <!-- Entries between SOLUTIONS and RESULTS tags are auto-generated -->
 
-[![AoC](https://badgen.net/badge/AoC/2022/blue)](https://adventofcode.com/2022)
+[![AoC](https://badgen.net/badge/AoC/2023/blue)](https://adventofcode.com/2023)
 [![Node](https://badgen.net/badge/Node/v16.13.0+/blue)](https://nodejs.org/en/download/)
 ![Language](https://badgen.net/badge/Language/JavaScript/blue)
 [![Template](https://badgen.net/badge/Template/aocrunner/blue)](https://github.com/caderek/aocrunner)
 
-# 🎄 Advent of Code 2022 🎄
+# 🎄 Advent of Code 2023 🎄
 
 ## Solutions
 
@@ -44,17 +44,20 @@ _Click a badge to go to the specific day._
 ## Leaderboard 👀
 | Participant | Stars |
 | ------------- | ------------- |
-| María Simó | 7 ⭐️⭐️⭐️⭐️⭐️⭐️⭐️ |
-| Mario Ballestero | 2 ⭐️⭐️ |
 | Francisco Naranjo | 2 ⭐️⭐️ |
+| Nicolás Sanchez | 2 ⭐️⭐️ |
+| Jose Antonio Castro Castro (Toño) | 2 ⭐️⭐️ |
+| María Simó | 1 ⭐️ |
+| Mouly Taha | 1 ⭐️ |
 | AnaMMenacho | - |
+| Mario Ballestero | - |
 | Antonio Jesús Palma López | - |
-| Nicolás Sanchez | - |
-| Mouly Taha | - |
 | Jimena A. | - |
 | Emilio A. Sánchez López | - |
 | Francisco Javier Portillo Rodriguez | - |
+| null | - |
 | Marta García | - |
+| Magui Valero | - |
 
 ---
 
