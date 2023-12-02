@@ -4,6 +4,7 @@ import { part1, part2 } from ".";
 
 const example = readFile("puzzles/day-01/example.txt");
 const example2 = readFile("puzzles/day-01/example2.txt");
+const input = readFile("puzzles/day-01/input.txt");
 
 describe("Day 1", () => {
   describe("part 1", () => {
@@ -14,6 +15,11 @@ describe("Day 1", () => {
   describe("part 2", () => {
     test.skip("Should return expected result with example input", () => {
       expect(part2(example2)).toBe(281);
+    });
+  });
+  describe("part 2", () => {
+    test("Should return expected result with input", () => {
+      expect(part2(input)).toBe(undefined);
     });
   });
 });

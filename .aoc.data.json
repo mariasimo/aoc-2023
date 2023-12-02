@@ -62,8 +62,8 @@
     ]
   },
   "blockedTime": {
-    "amount": 0,
-    "start": 0
+    "start": 1701514292201,
+    "amount": 60000
   },
   "days": [
     {
@@ -76,7 +76,8 @@
       "part2": {
         "solved": false,
         "attempts": [],
-        "time": null
+        "time": null,
+        "result": 53551
       }
     },
     {
